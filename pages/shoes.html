@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../assets/css/styles.css" />
+        <link rel="stylesheet" href="../assets/css/productsList.css" />
+        <title>Vêtements</title>
+        <link
+          rel="shortcut icon"
+          href="/assets/icons/shirt-3708741.png"
+          type="image/png"
+        />
+        <link
+          href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet"
+        />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+        />
+      </head>
+<body>
+    <header class="main-header">
+        <div class="inline-flex">
+          <div class="logo">
+            <h3>
+              <a href="../../index.html">
+                Vêtements
+              </a>
+              </h3>
+          </div>
+        </div>
+        <div class="search-input">
+          <input type="search" name="search" id="search" placeholder="search" />
+        </div>
+        <div class="header-icons-container">
+          <span class="search__icon" id="search">
+            <i class="material-icons"> &#xe8b6; </i>
+          </span>
+          <span class="user__icon" id="user">
+            <i class="material-icons"> &#xe7ff; </i>
+          </span>
+          <span class="favorite__icon" id="favorite">
+            <i class="material-icons"> &#xe87e; </i>
+          </span>
+          <span class="basket__icon" id="basket">
+            <i class="material-icons"> &#xf1cc; </i>
+          </span>
+        </div>
+    </header>
+    <main>
+      <section class="section product-list-section" id="shoes">
+        <div class="product__list-section-title">
+          <h1 id="productListSectionTitle">
+            shoes
+          </h1>
+        </div>
+        <div class="product__list-content grid two-col three-col">
+          <div class="product__card-list">
+            <a href="/pages/productDetails.html" class="see__details position-centered"> see details ...</a>
+          <span id="favWrapper">
+            <span class="material-symbols-outlined my-favorite show-fav" id="addFav">
+              heart_plus
+            </span>
+            <span class="material-symbols-outlined my-favorite" id="removeFav">
+              heart_minus
+            </span>
+          </span>
+          <img
+            src="/assets/images/new-img-02.jpg"
+            alt=""
+            class="product__img"
+          />
+          <h6 class="product__title">Relaxed fit texturet cotton shirt</h6>
+          <span class="product__price">590$</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="../assets/js/productList.js"></script>
+</body>
+</html>
